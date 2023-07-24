@@ -8,5 +8,6 @@ internal class Program
         Console.WriteLine("Finding the maximum of three");
         Operation operation = new Operation();
         operation.FindMaxInteger(1, 2, 3);
+        operation.FindMaxFloat(1.2f, 2.34f, 3.23f);
     }
 }

@@ -17,5 +17,14 @@ namespace TestMaximum
             if (c >= b && c >= a)
                 Console.WriteLine("c in max");
         }
+        public void FindMaxFloat(float a, float b, float c)
+        {
+            if (a >= b && a >= c)
+                Console.WriteLine("a in max");
+            if (b >= a && b >= c)
+                Console.WriteLine("b in max");
+            if (c >= b && c >= a)
+                Console.WriteLine("c in max");
+        }
     }
 }
