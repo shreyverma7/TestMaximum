@@ -26,5 +26,14 @@ namespace TestMaximum
             if (c >= b && c >= a)
                 Console.WriteLine("c in max");
         }
+        public void FindMaxString(string a, string b, string c)
+        {
+            if (a.CompareTo(b) >= 0 && a.CompareTo(c) >= 0)
+                Console.WriteLine("a in max");
+            if (b.CompareTo(a) >= 0 && b.CompareTo(c) >= 0)
+                Console.WriteLine("b in max");
+            if (c.CompareTo(b) >= 0 && c.CompareTo(a) >= 0)
+                Console.WriteLine("c in max");
+        }
     }
 }
